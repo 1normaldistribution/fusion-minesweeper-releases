@@ -1,0 +1,37 @@
+name: 问题反馈
+description: 提供可复现步骤和预期效果
+title: "[问题] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统
+      description: 机型、Android 版本、屏幕刷新率
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 玩法、设置与复现步骤
+      description: 请写清经典或变体模式、难度、点击或手势的先后顺序。
+    validations:
+      required: true
+  - type: textarea
+    id: difference
+    attributes:
+      label: 预期效果与实际效果
+      description: 如与参考版本不同，请说明相同步骤下的差异。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或录屏（可选）
+      description: 请检查并去掉通知、账号等私人信息，不要公开上传私人完整备份。

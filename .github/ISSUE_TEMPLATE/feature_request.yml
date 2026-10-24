@@ -1,0 +1,17 @@
+name: 功能建议
+description: 描述需求和可验收的行为
+title: "[建议] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 想解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 期望效果和验收步骤
+      description: 请说明在哪个模式、怎样操作、应看到什么结果。
+    validations:
+      required: true
