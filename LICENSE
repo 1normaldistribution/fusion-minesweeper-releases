@@ -1,4 +1,4 @@
-Scope: This license applies only to original documentation, JSON schemas, and issue templates in this public repository. It does not license APK releases, game implementation source, puzzle banks, game assets, or third-party materials. Third-party notices retain their own licenses.
+Scope: This license applies to the original adapter code, build scripts, synthetic examples, tests, documentation and issue templates published in this repository. It does not license APK releases, the private game implementation, original puzzle banks, game assets, or third-party materials. Downloaded CSugar/Glucose sources and their notices retain their own licenses, reproduced under components/android-csugar/licenses/.
 
 MIT License
 

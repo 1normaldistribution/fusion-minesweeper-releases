@@ -1,0 +1,9 @@
+{
+  "abi": "arm64-v8a",
+  "minimumApi": 23,
+  "pageAlignment": 16384,
+  "sourceFiles": 21,
+  "librarySha256": "79ab9c174365adb25f74ba0d352c23c250e03534df8d44f95885a42f040712cc",
+  "cliSha256": "681e77ef68d60a436b7a6660a9e0408b461e6adbc9f302ed0192b81de5d30244",
+  "ndk": "Pkg.Desc = Android NDK\nPkg.Revision = 27.2.12479018\nPkg.BaseRevision = 27.2.12479018\nPkg.ReleaseName = r27c"
+}

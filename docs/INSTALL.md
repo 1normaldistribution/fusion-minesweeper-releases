@@ -2,11 +2,11 @@
 
 ## 安装
 
-1. 在 Releases 下载 `fusion-minesweeper-1.0.0-android-arm64.apk`。系统要求为 Android 8.0+、ARM64。
+1. 在 Releases 下载最新的 `fusion-minesweeper-版本号-android-arm64.apk`。系统要求为 Android 8.0+、ARM64。
 2. 用系统安装器打开文件，根据提示允许当前来源安装。
 3. 启动“Minesweeper · 融合版”，选择经典或变体玩法。
 
-`Source code (zip/tar.gz)` 是 GitHub 自动打包的本仓库文档，不是游戏源码或安装包。
+`Source code (zip/tar.gz)` 是 GitHub 自动打包的本仓库开发组件与文档，不是完整游戏源码或安装包。
 
 ## 从旧测试版迁移
 
@@ -25,8 +25,4 @@
 
 ## 核对下载文件
 
-每个版本附带 `SHA256SUMS.txt`，可与下载 APK 的 SHA-256 比对。1.0.0 的 SHA-256：
-
-```text
-331931b75459a90b7a654a59fff92c0504083dfb99c316bc987e499e36dc2542
-```
+每个版本附带 `SHA256SUMS.txt`，可与下载 APK 的 SHA-256 比对。使用对应版本的校验文件；旧版校验值不能用于新版 APK。

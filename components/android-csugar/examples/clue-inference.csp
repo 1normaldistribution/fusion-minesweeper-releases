@@ -1,0 +1,9 @@
+; Three unknown cells: a+b=1, b+c=1, a+c=0 => only b is a mine.
+(bool a)
+(bool b)
+(bool c)
+(= (+ (if a 1 0) (if b 1 0)) 1)
+(= (+ (if b 1 0) (if c 1 0)) 1)
+(= (+ (if a 1 0) (if c 1 0)) 0)
+# a b c
+?

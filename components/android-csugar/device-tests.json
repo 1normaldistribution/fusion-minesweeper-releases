@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "scope": "synthetic CSP protocol tests on Android ARM64",
+  "cases": [
+    {
+      "name": "clue-inference",
+      "passed": true,
+      "output": "sat\na false\nb true\nc false\n"
+    },
+    {
+      "name": "ambiguous-not-forced",
+      "passed": true,
+      "output": "sat\n"
+    },
+    {
+      "name": "contradiction",
+      "passed": true,
+      "output": "unsat\n"
+    },
+    {
+      "name": "integer-forced",
+      "passed": true,
+      "output": "sat\nn 2\n"
+    },
+    {
+      "name": "enumerate-two-solutions",
+      "passed": true,
+      "output": "ans 0\na true\nb false\n$\nans 1\na false\nb true\n$\nunsat\n"
+    },
+    {
+      "name": "local-maximal",
+      "passed": true,
+      "output": "sat\nb false\n"
+    },
+    {
+      "name": "invalid-input-error",
+      "passed": true
+    }
+  ]
+}
