@@ -2,15 +2,21 @@
 
 Android 原生扫雷游戏，提供经典扫雷与一代变体扫雷。
 
-- [下载最新 APK](https://github.com/1normaldistribution/fusion-minesweeper-releases/releases/latest)
+- [下载原生正式版 APK（推荐）](https://github.com/1normaldistribution/fusion-minesweeper-releases/releases/latest)
 - [安装与升级](docs/INSTALL.md) · [更新记录](CHANGELOG.md) · [后续计划](ROADMAP.md)
 - [报告问题](https://github.com/1normaldistribution/fusion-minesweeper-releases/issues/new/choose)
 
 ## 当前版本
 
-**1.0.1**，Android 8.0 及以上，ARM64 设备。界面采用 Android View / Canvas，求解在本机完成，可离线使用。没有账号、广告、付费购买或自动上传。
+**原生正式版 1.0.3**，Android 8.0 及以上，ARM64 设备。界面采用 Android View / Canvas，求解在本机完成，可离线使用。没有账号、广告、付费购买或自动上传。
 
 包含经典扫雷六档难度、变体题组与图鉴、教程、主题与调色、手势操作、绘图笔记、提示、回放、成绩和 JSON 备份。二代《14种扫雷变体 2》已列入后续计划，当前版本尚未加入。
+
+## Web 测试版（已停止更新）
+
+[Web 套壳测试 APK 1.0.2](https://github.com/1normaldistribution/fusion-minesweeper-releases/releases/tag/v1.0.2-web-test) **仅用于测试和对照，不是正式版**，不作为日常使用的推荐下载。它使用 Android WebView，与原生正式版是不同应用，进度不会自动互通。
+
+Web 测试版已封存，此后不再更新或维护；只提供 APK，不发布网站或网页源码包。后续修复与功能更新集中在原生正式版。测试包的静态核对已完成，本次没有补做其新图标、开局和变体加载的真机验收。
 
 ## 可复用的开发组件
 

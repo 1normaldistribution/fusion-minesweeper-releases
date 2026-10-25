@@ -8,6 +8,12 @@
 
 `Source code (zip/tar.gz)` 是 GitHub 自动打包的本仓库开发组件与文档，不是完整游戏源码或安装包。
 
+## Web 测试 APK 的区别
+
+`fusion-minesweeper-1.0.2-web-test.apk` 是 **WebView 套壳测试版本，已停止维护，不是正式版**。它单独放在标有 Pre-release 的 Web 测试发布页，仅供测试/对照，后续不再更新。日常使用请下载上面的原生正式 APK。
+
+Web 测试包名是 `com.minesweeper.fusion.web`，原生正式包名是 `com.minesweeper.fusion`。两者可并存，安装其中一个不会替换另一个，也不会自动读取另一应用的数据。迁移前先分别导出备份，勿卸载原有应用。
+
 ## 从旧测试版迁移
 
 正式版包名为 `com.minesweeper.fusion`，与“扫雷原生迁移测试”以及早期 Web 测试包分别安装。**安装正式版不会自动读取其他应用的私有进度。**
