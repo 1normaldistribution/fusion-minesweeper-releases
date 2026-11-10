@@ -1,1 +1,1 @@
-3c8d4559a83cde0af18cfe2b2d5373c5d0aa1c57403e8710f12bed8de551316d  fusion-minesweeper-1.0.6-android-arm64.apk
+f153955d671568957c306b04292f79f85fc9e129b20517178c0ac9ded730509b  fusion-minesweeper-1.1.0-android-arm64.apk
