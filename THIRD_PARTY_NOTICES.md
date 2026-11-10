@@ -1,38 +1,38 @@
 # 第三方许可与来源
 
-更新日期：2026-10-24 · 1.1
+Minesweeper · 融合版 · 1.1.0
+
+更新日期：2026-11-10；文档版本：2.0。
 
 ## 一、来源说明
 
-本应用保留原游戏与第三方组件的来源、作者和许可告知。不同程序、资源及组件分别适用各自的权利和许可；本页不替代权利人的授权，也不将全部内容声明为本项目原创。
+本应用保留原游戏与第三方组件的作者、来源和许可。各程序及资源分别适用相应权利和许可，本页不替代权利人的授权，也不将全部内容声称为本项目原创。
 
 ## 二、原游戏与内容
 
-《14 Minesweeper Variants》／十四种扫雷变体的题库、规则教程、翻译、图标、音效和谢幕内容来自原游戏文件；保留 Alith Games / Artless Games 与原贡献者署名。
+《14 Minesweeper Variants》与《14 Minesweeper Variants 2》／两代十四种扫雷变体的规则程序、题库、教程、翻译、图片、音效及原谢幕来自原作文件，保留 Alith Games / Artless Games 与原贡献者署名。二代原制作资料和开发花絮在对应谢幕中保留。
 
-原生计算使用原发行文件中的 CSPCore.dll 与 MinesweeperAnalyzer.dll，并通过本地 .NET Android 与 ARM64 计算组件运行。原程序集与底层开源求解组件分别适用各自的权利和许可。
+两代在本地分别使用其 CSPCore.dll 与 MinesweeperAnalyzer.dll；二代计算在独立进程与加载环境中运行，并使用独立 ARM64 求解库。经典扫雷的程序适配、资源和字体亦保留相应来源；英语经典程序与资源源自设备上提供的原版安装包。
 
-原音效中的点击素材署名包含 annabloom。声音、图片与译文的贡献者信息保留在原作谢幕等对应内容中。经典扫雷的程序适配、图标与字体也保留其相应来源。
+原音效点击素材署名包含 annabloom，声音、图片、翻译及其他贡献者信息保留在原谢幕等对应内容中。融合制作记为本项目的适配经历文案，历史制作截图不改变原素材权属。
 
-本页的来源标注不额外授予原游戏程序、题库或素材的复制、改编与公开分发权利。
+来源标注不额外授予原游戏程序、题库或素材的复制、改编和公开分发权利。
 
 ## 三、随包组件许可
 
-CSugar、Sugar、MiniSat 和 Glucose 的版权、许可条件与免责声明随包保留。Glucose 另有其附加条件，不能将这些组件一概归为同一种许可证。
+两代本地求解所涉及的 CSugar、Sugar、MiniSat、Glucose，以及 zlib，保留其版权、许可与免责声明。Glucose 含附加条件，不将所有组件概括为同一种许可证。
 
-Microsoft .NET Android 的许可证与第三方告知随包保留，适用范围以具体组件及声明为准。
+Microsoft .NET Android 的许可与第三方告知随包保留，具体以组件及声明为准。Rubik 与 Copperplate CC 字体采用 SIL Open Font License 1.1，随包保留对应作者和许可；Copperplate CC 由 Owen Earl / indestructible type* 为 Cowboy Collective 设计。
 
-zlib 的来源、许可和免责声明随包保留。
+原作图像中已呈现的字体、嵌入原资源中的字体和原制作资料所列组件，保留其原有署名与适用许可；不把仅用于原作制作的引擎声称为当前 Android 界面运行引擎。
 
-Rubik 字体采用 SIL Open Font License 1.1，随包提供对应字体许可及作者署名。
-
-当前原生包使用 Android 原生界面与本地计算组件，不包含网页版本的 html-to-image 库。
+当前正式包使用 Android 原生界面和本地计算组件，不使用 WebView 加载游戏，不包含网页版本的 html-to-image 运行库，也不包含已移除的桌宠资源。
 
 ## 四、许可全文
 
-下方可展开查看当前安装包所附的 CSugar、Glucose、zlib、Rubik、.NET 及 .NET 第三方告知原文。原文按对应来源保留，不通过程序替你接受任何第三方协议。
+下方可展开阅读随包的 CSugar、Glucose、zlib、Rubik、Copperplate CC、.NET 和 .NET 第三方告知原文。已有许可原文保持完整；不通过本程序替你接受第三方协议。
 
-## 许可全文：CSugar.txt
+## CSugar.txt
 
 ```text
 Copyright 2020- semiexp
@@ -167,7 +167,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 ```
 
-## 许可全文：Glucose.txt
+## Glucose.txt
 
 ```text
  Glucose -- Copyright (c) 2009-2017, Gilles Audemard, Laurent Simon
@@ -221,7 +221,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 ```
 
-## 许可全文：zlib.txt
+## zlib.txt
 
 ```text
 Copyright notice:
@@ -249,7 +249,7 @@ Copyright notice:
 
 ```
 
-## 许可全文：Rubik.txt
+## Rubik.txt
 
 ```text
 Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)
@@ -348,7 +348,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ```
 
-## 许可全文：dotnet.txt
+## dotnet.txt
 
 ```text
 MICROSOFT SOFTWARE LICENSE TERMS
@@ -418,7 +418,7 @@ EFFET JURIDIQUE. Le présent contrat décrit certains droits juridiques. Vous po
 
 ```
 
-## 许可全文：dotnet-third-party.txt
+## dotnet-third-party.txt
 
 ```text
 .NET Runtime uses third-party libraries or other resources that may be
@@ -1872,5 +1872,104 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```
+
+## CopperplateCC-OFL.txt
+
+```text
+Copyright 2020 The Cowboy Collective (https://CowboyCollective.cc)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ```
